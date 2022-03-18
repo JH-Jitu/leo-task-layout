@@ -97,51 +97,102 @@
               <table>
                 <thead>
                   <tr>
-                    <th>head-1</th>
-                    <th>head-2</th>
-                    <th>head-3</th>
-                    <th>head-4</th>
-                    <th>head-5</th>
-                    <th>head-6</th>
+                    <th><input type="checkbox" /></th>
+                    <th>Candidate</th>
+                    <th>Rating</th>
+                    <th>Location</th>
+                    <th class="contact">Contact</th>
+                    <th>Availability</th>
                   </tr>
                 </thead>
 
                 <tbody>
                   <tr>
-                    <td>head-1</td>
-                    <td>head-2</td>
-                    <td>head-3</td>
-                    <td>head-4</td>
-                    <td>head-5</td>
-                    <td>head-6</td>
-                  </tr>
-                  <tr>
-                    <td>head-1</td>
-                    <td>head-2</td>
-                    <td>head-3</td>
-                    <td>head-4</td>
-                    <td>head-5</td>
-                    <td>head-6</td>
-                  </tr>
-                  <tr>
-                    <td>head-1</td>
-                    <td>head-2</td>
-                    <td>head-3</td>
-                    <td>head-4</td>
-                    <td>head-5</td>
-                    <td>head-6</td>
+                    <td><input type="checkbox" /></td>
+                    <td>
+                      <div>
+                        <div class="candidate">
+                          <div>
+                            <img src="assets/Ellipse 8.png" alt="" />
+                          </div>
+                          <div>
+                            <b>name here</b>
+                            <p>title here</p>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <img src="assets/Star 4.png" alt="" />
+                      <img src="assets/Star 4.png" alt="" />
+                      <img src="assets/Star 4.png" alt="" />
+                      <img src="assets/Star 4.png" alt="" />
+                      <img src="assets/Star 5.png" alt="" />
+                    </td>
+                    <td>
+                      London <br />
+                      United Kingdom
+                    </td>
+                    <td class="contact">
+                      <img src="assets/Vector.png" alt="" />
+                      <img src="assets/gmail (1) 1.png" alt="" />
+                    </td>
+                    <td>
+                      <div class="availability">
+                        <div>
+                          <select class="available-btn">
+                            <option value="active">Active</option>
+                            <option value="active">Available</option>
+                            <option value="active">Not Active</option>
+                          </select>
+                        </div>
+                        <div class="candidate-options">
+                          <img src="assets/Overflow Menu.png" alt="" />
+                        </div>
+                      </div>
+                    </td>
                   </tr>
                 </tbody>
               </table>
             </div>
           </div>
           <!-- table end here -->
+
+          <!-- Load more -->
+          <div class="load-more">
+            <div>
+              <small> SHOWING 8 of 240 Candidates </small>
+              <div class="total-candidates">
+                <div class="loaded-candidates"></div>
+              </div>
+              <div class="load-btn-part">
+                <button class="load-more-btn">Load more Candidates</button>
+              </div>
+            </div>
+          </div>
+          <!-- Load end -->
         </div>
 
         <!-- Body end here -->
 
         <!-- Footer -->
-        <div class="footer"></div>
+        <div class="footer">
+          <div class="selected-list">
+            <input type="checkbox" />
+            <small> 2 Candidates selected</small>
+          </div>
+
+          <div class="all-event-btn">
+            <button class="event-btn">Add to Job</button>
+            <select name="send" class="event-btn">
+              <option value="sms">Send SMS</option>
+              <option value="email">Send email</option>
+            </select>
+            <select class="event-btn">
+              <option value="">Other Actions</option>
+            </select>
+          </div>
+        </div>
         <!-- Footer end here -->
       </div>
     </div>
